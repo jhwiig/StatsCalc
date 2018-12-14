@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0406697921B4C22A00C28247 /* TwoSampleSame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406697821B4C22A00C28247 /* TwoSampleSame.swift */; };
+		0406697B21B4E08600C28247 /* ConfidenceInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406697A21B4E08600C28247 /* ConfidenceInterval.swift */; };
+		0406697D21B4E5E100C28247 /* PredictionInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406697C21B4E5E100C28247 /* PredictionInterval.swift */; };
+		0406697F21B4E79400C28247 /* ToleranceInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406697E21B4E79400C28247 /* ToleranceInterval.swift */; };
+		0406698121B4EC4300C28247 /* ProportionConfidenceInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406698021B4EC4300C28247 /* ProportionConfidenceInterval.swift */; };
 		045299FF21B323FF008234BC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045299FE21B323FF008234BC /* main.swift */; };
+		04529A0621B3240B008234BC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04529A0521B3240B008234BC /* Utilities.swift */; };
+		04529A0821B33316008234BC /* TwoSamplet-CI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04529A0721B33316008234BC /* TwoSamplet-CI.swift */; };
+		04529A0A21B3ABFF008234BC /* CompareTwoProportions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04529A0921B3ABFF008234BC /* CompareTwoProportions.swift */; };
+		0460F19921B4F4B300D7BF30 /* ProportionConfidenceIntervalComplicated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460F19821B4F4B300D7BF30 /* ProportionConfidenceIntervalComplicated.swift */; };
+		04D5234221B9C2410025D57D /* CoefConfidenceInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5234121B9C2410025D57D /* CoefConfidenceInterval.swift */; };
+		04D5234421B9C5BF0025D57D /* ProportionMoreSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5234321B9C5BF0025D57D /* ProportionMoreSamples.swift */; };
+		04D5234621B9C9260025D57D /* ConfidenceMoreSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5234521B9C9260025D57D /* ConfidenceMoreSamples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +35,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0406697821B4C22A00C28247 /* TwoSampleSame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSampleSame.swift; sourceTree = "<group>"; };
+		0406697A21B4E08600C28247 /* ConfidenceInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfidenceInterval.swift; sourceTree = "<group>"; };
+		0406697C21B4E5E100C28247 /* PredictionInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionInterval.swift; sourceTree = "<group>"; };
+		0406697E21B4E79400C28247 /* ToleranceInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToleranceInterval.swift; sourceTree = "<group>"; };
+		0406698021B4EC4300C28247 /* ProportionConfidenceInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionConfidenceInterval.swift; sourceTree = "<group>"; };
 		045299FB21B323FF008234BC /* statscalc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = statscalc; sourceTree = BUILT_PRODUCTS_DIR; };
 		045299FE21B323FF008234BC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		04529A0521B3240B008234BC /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		04529A0721B33316008234BC /* TwoSamplet-CI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TwoSamplet-CI.swift"; sourceTree = "<group>"; };
+		04529A0921B3ABFF008234BC /* CompareTwoProportions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareTwoProportions.swift; sourceTree = "<group>"; };
+		0460F19821B4F4B300D7BF30 /* ProportionConfidenceIntervalComplicated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionConfidenceIntervalComplicated.swift; sourceTree = "<group>"; };
+		04D5234121B9C2410025D57D /* CoefConfidenceInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoefConfidenceInterval.swift; sourceTree = "<group>"; };
+		04D5234321B9C5BF0025D57D /* ProportionMoreSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionMoreSamples.swift; sourceTree = "<group>"; };
+		04D5234521B9C9260025D57D /* ConfidenceMoreSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfidenceMoreSamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,18 @@
 			isa = PBXGroup;
 			children = (
 				045299FE21B323FF008234BC /* main.swift */,
+				0406697A21B4E08600C28247 /* ConfidenceInterval.swift */,
+				0406697C21B4E5E100C28247 /* PredictionInterval.swift */,
+				0406697E21B4E79400C28247 /* ToleranceInterval.swift */,
+				0406698021B4EC4300C28247 /* ProportionConfidenceInterval.swift */,
+				0460F19821B4F4B300D7BF30 /* ProportionConfidenceIntervalComplicated.swift */,
+				0406697821B4C22A00C28247 /* TwoSampleSame.swift */,
+				04529A0721B33316008234BC /* TwoSamplet-CI.swift */,
+				04529A0921B3ABFF008234BC /* CompareTwoProportions.swift */,
+				04D5234121B9C2410025D57D /* CoefConfidenceInterval.swift */,
+				04D5234521B9C9260025D57D /* ConfidenceMoreSamples.swift */,
+				04D5234321B9C5BF0025D57D /* ProportionMoreSamples.swift */,
+				04529A0521B3240B008234BC /* Utilities.swift */,
 			);
 			path = statscalc;
 			sourceTree = "<group>";
@@ -119,7 +155,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D5234621B9C9260025D57D /* ConfidenceMoreSamples.swift in Sources */,
+				0406697D21B4E5E100C28247 /* PredictionInterval.swift in Sources */,
+				04D5234221B9C2410025D57D /* CoefConfidenceInterval.swift in Sources */,
 				045299FF21B323FF008234BC /* main.swift in Sources */,
+				0460F19921B4F4B300D7BF30 /* ProportionConfidenceIntervalComplicated.swift in Sources */,
+				0406697B21B4E08600C28247 /* ConfidenceInterval.swift in Sources */,
+				04529A0621B3240B008234BC /* Utilities.swift in Sources */,
+				04D5234421B9C5BF0025D57D /* ProportionMoreSamples.swift in Sources */,
+				0406697F21B4E79400C28247 /* ToleranceInterval.swift in Sources */,
+				0406698121B4EC4300C28247 /* ProportionConfidenceInterval.swift in Sources */,
+				0406697921B4C22A00C28247 /* TwoSampleSame.swift in Sources */,
+				04529A0A21B3ABFF008234BC /* CompareTwoProportions.swift in Sources */,
+				04529A0821B33316008234BC /* TwoSamplet-CI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
